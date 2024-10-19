@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 
+/*** Components ***/
+import ButtonDemo from '@/components/button/demo/ButtonDemo.vue';
+
 const routes = [
   {
     path: '/',
@@ -11,6 +14,11 @@ const routes = [
     name: 'home',
     component: Home,
   },
+  {
+    path: '/components/button',
+    name: 'button',
+    component: ButtonDemo,
+  }
 ];
 
 const router = createRouter({

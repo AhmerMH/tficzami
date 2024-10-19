@@ -1,15 +1,11 @@
-/* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
-
   --vt-c-black: #181818;
   --vt-c-black-soft: #222222;
   --vt-c-black-mute: #282828;
-
   --vt-c-indigo: #2c3e50;
-
   --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
   --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
   --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
@@ -19,6 +15,51 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  --sp-1x: 4px;
+  --sp-2x: 8px;
+  --sp-3x: 12px;
+  --sp-4x: 16px;
+  --sp-5x: 20px;
+  --sp-6x: 24px;
+  --sp-7x: 28px;
+  --sp-8x: 32px;
+  --sp-9x: 36px;
+  --sp-10x: 40px;
+
+  --rd-1x: 2px;
+  --rd-2x: 4px;
+  --rd-3x: 6px;
+  --rd-4x: 8px;
+  --rd-5x: 10px;
+  --rd-6x: 12px;
+  --rd-7x: 14px;
+  --rd-8x: 16px;
+  --rd-9x: 18px;
+  --rd-10x: 20px;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+
+  --line-height-xs: 12px;
+  --line-height-sm: 14px;
+  --line-height-md: 16px;
+  --line-height-lg: 18px;
+  --line-height-xl: 20px;
+
+  --color-light-basic: var(--vt-c-text-dark-1);
+  --color-dark-basic: var(--vt-c-text-light-1);
+
+  --color-light-primary: var(--vt-c-text-dark-1);
+  --color-dark-primary: var(--vt-c-text-light-1);
+
+  --font-basic: var(--color-dark-basic);
+  --bg-basic: var(--color-light-basic);
+
+  --border-color-basic: #e7e7e7;
 }
 
 /* semantic color variables for this project */
@@ -47,6 +88,9 @@
 
     --color-heading: var(--vt-c-text-dark-1);
     --color-text: var(--vt-c-text-dark-2);
+
+    --font-basic: var(--color-light-basic);
+    --bg-basic: var(--color-dark-basic);
   }
 }
 

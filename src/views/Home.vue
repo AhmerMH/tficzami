@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Welcome from '../app-components/Welcome/Welcome.vue';
 import WelcomeItems from '../app-components/Welcome/WelcomeItems.vue';
-import Logo from '../icons/Logo.vue';
+import Logo from '../Logo.vue';
 </script>
 
 <template>

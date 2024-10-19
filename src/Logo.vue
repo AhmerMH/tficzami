@@ -1,5 +1,5 @@
 <template>
-  <div class="logo">
+  <div class="logo" :style="logoSize">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
@@ -23,10 +23,27 @@
   </div>
 </template>
 
+<script setup lang="ts">
+import { computed } from 'vue';
+
+const props = defineProps({
+  size: {
+    type: Number,
+    required: false,
+    default: 250,
+  },
+});
+
+const logoSize = computed(() => {
+  return {
+    width: `${props.size}px`,
+    height: `${props.size}px`,
+  };
+});
+</script>
+
 <style lang="postcss">
 .logo {
-  width: 250px;
-  height: 250px;
   display: inherit !important;
 }
 

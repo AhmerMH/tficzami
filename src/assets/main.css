@@ -1,10 +1,16 @@
 @import './base.css';
 
+html, body {
+  height: 100%;
+  widht: 100%;
+}
+
 #app {
   max-width: 1480px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  height: 100%;
 }
 
 a,
