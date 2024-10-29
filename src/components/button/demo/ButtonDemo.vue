@@ -1,6 +1,9 @@
 <template>
   <DemoContainer title="Buttons">
-    <TficzamiButton text="Basic Button" />
+    <TficzamiButton text="Basic Button" type="basic" />
+    <TficzamiButton text="Primary Button" type="primary" class="ml-2x" />
+    <TficzamiButton text="Secondary Button" type="secondary" class="ml-2x" />
+    <TficzamiButton text="Link button" type="link" class="ml-2x" />
   </DemoContainer>
 </template>
 
